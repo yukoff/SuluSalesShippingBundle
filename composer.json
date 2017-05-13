@@ -23,9 +23,9 @@
         "symfony-cmf/routing-bundle": "^1.2||^2.0",
 
         "sulu/sulu": "^1.1@dev",
-        "sulu/product-bundle": "^0.1",
+        "sulu/product-bundle": "^0.1||dev-develop",
         "massive/pdf-bundle": "^0.1",
-        "sulu/contact-extension-bundle": "^0.2"
+        "sulu/contact-extension-bundle": "^0.2||dev-develop"
     },
     "require-dev": {
         "sensio/framework-extra-bundle":  "^3.0",
@@ -35,7 +35,7 @@
         "phpunit/phpunit": ">=4.8, <5.4",
         "jackalope/jackalope-doctrine-dbal": "^1.2.0",
         "jackalope/jackalope-jackrabbit": "^1.2.0",
-        "massive/search-bundle": "^0.7"
+        "massive/search-bundle": "^0.7||dev-develop"
     },
     "replace": {
         "sulu/sales-core-bundle": "self.version",
